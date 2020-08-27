@@ -265,14 +265,15 @@ Now we can start to see how everything is related.
 **Let's test what you learned from this section:**
 <details>
 
-<summary>What would happen to the power density if I increased the density of the
-particles?
+<p><summary>What would happen to the power density if I increased the density of the
+particles?</p> 
 
 </summary>First, more fusion collisions would be occurring per in that space so
 the reaction rate $R$ increases. Since the reaction
 rate increases, the power energy density $S_j$
 also increases. We would be producing more power per unit volume because
 more fusion collisions occur.
+
 </details> 
 
 What would happen to the power density if the cross section of the
@@ -333,7 +334,7 @@ $v_y$ and $v_y + dv_y$,
 
 $v_z$ and $v_z + dv_y$
 
-![](img/cube.png)
+![](/img/cube.png)
 
 To include all these velocity subgroups in our density function
 $f$, we can take the 3 dimensions we were
