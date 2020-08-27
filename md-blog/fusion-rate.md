@@ -152,7 +152,7 @@ having a collision and thus, not fusing.
 
 $$ \Gamma = -\sigma n_1 \Gamma dx$$
 
-$$ \Gamma = \Gamma_0 e^{\frac{-x}{\gamma_m}}$$
+$$Gamma = \Gamma_0 e^{\frac{-x}{\gamma_m}}$$
 
 where, The Mean Free Path is
 
@@ -263,15 +263,17 @@ $S = ER=E n_1\sigma n_2 v$
 Now we can start to see how everything is related.
 
 **Let's test what you learned from this section:**
+<details>
 
-What would happen to the power density if I increased the density of the
+<summary>What would happen to the power density if I increased the density of the
 particles?
 
-First, more fusion collisions would be occurring per in that space so
+</summary>First, more fusion collisions would be occurring per in that space so
 the reaction rate $R$ increases. Since the reaction
 rate increases, the power energy density $S_j$
 also increases. We would be producing more power per unit volume because
 more fusion collisions occur.
+</details> 
 
 What would happen to the power density if the cross section of the
 nuclei decreased?
