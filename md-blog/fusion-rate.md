@@ -128,7 +128,7 @@ $n_2$. Don't confuse this with $n_1$ which we used to represent the density of t
 particles*.
 
 We'll use $n_2$ to calculate the flux
-$\Gamma$--- this is total number of incident
+$ \Gamma$--- this is total number of incident
 particles crossing the cross sectional Area $A$,
 per unit time per unit area. Don't get impatient, we're going to use
 this quantity to calculate the Mean Free Path shortly.
@@ -137,7 +137,7 @@ To calculate the flux, we took the total number of incident particles
 $T_2$ and divided by area $A$
 and time $dt$.
 
-$$Gamma = \frac{N_2}{Adt}=\frac{n_2Avdt}{Adt}=n_2v$$
+$$ \Gamma = \frac{N_2}{Adt}=\frac{n_2Avdt}{Adt}=n_2v$$
 
 This is just total number of incident particles, what portion of these
 particles are having a collision and fusing? We'll represent the amount
