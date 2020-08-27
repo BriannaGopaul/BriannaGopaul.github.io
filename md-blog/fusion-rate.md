@@ -8,6 +8,8 @@ url: "fusion-rate"
 The Rate of Fusion
 ==================
 
+*By Brianna Gopaul*
+
 If you haven't read [The Basics of
 Fusion](https://www.briannagopaul.com/fusion-basics.html), I highly
 recommend you read it first before continuing on. If not, here's a quick
@@ -447,6 +449,6 @@ Cambridge University Press. doi:10.1017/CBO9780511755705*
 York: Wiley, 1988. Print.*
 
 *Nuclear Fusion -
-Hyperphysics - Nuclear Fusion*
+Hyperphysics*
 
 -------------------------------------------------------------------------
