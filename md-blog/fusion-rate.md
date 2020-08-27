@@ -137,7 +137,7 @@ To calculate the flux, we took the total number of incident particles
 $T_2$ and divided by area $A$
 and time $dt$.
 
-$$ \Gamma = \frac{N_2}{Adt}=\frac{n_2Avdt}{Adt}=n_2v$$
+$$\Gamma = \frac{N_2}{Adt}=\frac{n_2Avdt}{Adt}=n_2v$$
 
 This is just total number of incident particles, what portion of these
 particles are having a collision and fusing? We'll represent the amount
@@ -152,7 +152,7 @@ having a collision and thus, not fusing.
 
 $$ \Gamma = -\sigma n_1 \Gamma dx$$
 
-$$Gamma = \Gamma_0 e^{\frac{-x}{\gamma_m}}$$
+$$\Gamma = \Gamma_0 e^{\frac{-x}{\gamma_m}}$$
 
 where, The Mean Free Path is
 
@@ -195,7 +195,7 @@ So the average time a collision takes to occur is the average distance
 before a collision $\gamma_m$ divided by how
 often collisions occur $v_m$.
 
-$$tau_m = \frac{\gamma_m}{v_m}=\frac{1}{n_1\sigma
+$$\tau_m = \frac{\gamma_m}{v_m}=\frac{1}{n_1\sigma
 v}$$
 
 So if we were to increase the density of the target particles, the cross
