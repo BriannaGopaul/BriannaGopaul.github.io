@@ -8,8 +8,6 @@ url: "fusion-rate"
 The Rate of Fusion
 ==================
 
-*By Brianna Gopaul*
-
 If you haven't read [The Basics of
 Fusion](https://www.briannagopaul.com/fusion-basics.html), I highly
 recommend you read it first before continuing on. If not, here's a quick
@@ -43,7 +41,7 @@ going to calculate how often fusion occurs.
 ------------------------------------------------------------------------
 
 *Average Distance Before Collision*
-----------------------------------
+---------------------------------
 
 Imagine this: Deuterium nuclei are moving at a velocity $v$
 towards a stationary Tritium nucleus. The Tritium nucleus is
