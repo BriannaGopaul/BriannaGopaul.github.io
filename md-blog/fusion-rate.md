@@ -40,7 +40,7 @@ going to calculate how often fusion occurs.
 
 ------------------------------------------------------------------------
 
-### Average Distance Before Collision
+### *Average Distance Before Collision*
 
 Imagine this: Deuterium nuclei are moving at a velocity $v$
 towards a stationary Tritium nucleus. The Tritium nucleus is
