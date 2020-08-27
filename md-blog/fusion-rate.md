@@ -448,7 +448,6 @@ Cambridge University Press. doi:10.1017/CBO9780511755705*
 *Krane, Kenneth S, and David Halliday. Introductory Nuclear Physics. New
 York: Wiley, 1988. Print.*
 
-*Nuclear Fusion -
-Hyperphysics*
+*Nuclear Fusion - Hyperphysics*
 
 -------------------------------------------------------------------------
