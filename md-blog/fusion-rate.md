@@ -71,7 +71,7 @@ $\sigma$ is related to the probability of fusion
 occurring by calculating the Mean Free Path. The Mean Free Path is the
 average distance a particle travels before fusion occurs.
 
-### The Mean Free Path
+##### The Mean Free Path
 
 ![](/img/volume.png)
 
@@ -174,6 +174,7 @@ travel before a collision or fusion occurs.
 
 ------------------------------------------------------------------------
 
+
 ### How Often Does Fusion Occur?
 
 In this article I won't be deriving the collision frequency but I'll
@@ -210,6 +211,7 @@ and their velocities, the collision frequency would increase. The
 opposite is also true.
 
 ------------------------------------------------------------------------
+
 
 ### Fusion Power Energy Density
 
@@ -312,6 +314,7 @@ reactor, this definitely wouldn't be the case. Particles would be moving
 at various speeds depending on how energetic they are.
 
 ------------------------------------------------------------------------
+
 
 ### Modifying The Reaction Rate
 
