@@ -40,7 +40,7 @@ going to calculate how often fusion occurs.
 
 ------------------------------------------------------------------------
 
-## Average Distance Before Collision
+### Average Distance Before Collision
 
 Imagine this: Deuterium nuclei are moving at a velocity $v$
 towards a stationary Tritium nucleus. The Tritium nucleus is
@@ -71,8 +71,7 @@ $\sigma$ is related to the probability of fusion
 occurring by calculating the Mean Free Path. The Mean Free Path is the
 average distance a particle travels before fusion occurs.
 
-The Mean Free Path
-------------------
+### The Mean Free Path
 
 ![](/img/volume.png)
 
