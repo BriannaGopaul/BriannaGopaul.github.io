@@ -73,7 +73,7 @@
 <p><span class="math display">\[ \Gamma = -\sigma n_1 \Gamma dx\]</span></p>
 <p><span class="math display">\[ \Gamma = \Gamma_0 e\^{\frac{-x}{\gamma_m}\]</span></p>
 <p>where, The Mean Free Path is</p>
-<p><span class="math inline">\(\gamma_m = \frac{1}{n_1 \sigma}\)</span></p>
+<p><span class="math display">\[ \gamma_m = \frac{1}{n_1 \sigma}\]</span></p>
 <p><strong>What Does This Tell Us About The Mean Free Path?</strong></p>
 <p>First, the Mean Free Path describes the average distance a particle must travel before a collision or fusion occurs.</p>
 <ul>
@@ -102,7 +102,7 @@ v}\]</span></p>
 <p><span class="math display">\[R = \frac{P(n_2Adx)}{Adxdt}=\sigma n_1 n_2
 \frac{dx}{dt}=\sigma v n_1 n_2\]</span></p>
 <p>Let’s say that each fusion reaction creates some energy <span class="math inline">\(E\)</span>, then the total energy produced in this reaction per unit volume is <span class="math inline">\(ER\)</span></p>
-<p>Therefore, the power density of that fusion reaction in <span class="math inline">\(Watts/m\^3\)</span> is</p>
+<p>Therefore, the power density of that fusion reaction in <span class="math inline">\(/frac{Watts}{m^3}\)</span> is</p>
 <p><span class="math inline">\(S = ER=E n_1\sigma n_2 v\)</span></p>
 <p>Now we can start to see how everything is related.</p>
 <p><strong>Let’s test what you learned from this section:</strong></p>
@@ -112,8 +112,6 @@ v}\]</span></p>
 <p>If the cross sectional area of the nuclei <span class="math inline">\(\sigma\)</span> decreased, the number of collisions occurring in that volume of space <span class="math inline">\(R\)</span> would decrease because there’s less available area for the particles to collide at. This would then decrease the power energy density <span class="math inline">\(S_j\)</span> because less fusion collisions are occurring per unit volume.</p>
 <p>What would happen to power density if the velocity of the particles was 0?</p>
 <p>The power density would be 0 then, we would be producing no energy. If you were to set all the <span class="math inline">\(v\)</span> terms to 0, the reaction rate <span class="math inline">\(R\)</span> would equal 0. Plugging this into <span class="math inline">\(S_j\)</span>, we would get 0 as well. Particles need to be moving for for any collision to occur. If you wanted to count how many cars crashed on a highway but none of the cars were moving, then there would be 0 collisions right? Same thing for fusion, particles must be moving at a non zero velocity at least.</p>
-<p><br />
-</p>
 <p>In every equation you’ve seem above, the velocity of the particles <span class="math inline">\(v\)</span> has remained constant. In a real nuclear reactor, this definitely wouldn’t be the case. Particles would be moving at various speeds depending on how energetic they are.</p>
 <hr />
 <h3 id="modifying-the-reaction-rate">Modifying The Reaction Rate</h3>
@@ -123,11 +121,11 @@ v}\]</span></p>
 <p>We have a small cubic volume of space <span class="math inline">\(dr=dxdydz\)</span></p>
 <p>The total number of particles at a specific time <span class="math inline">\(t\)</span> using our simpler density variable <span class="math inline">\(n\)</span> would be <span class="math inline">\(n(r,t)dr\)</span>. The density is a function of the time and the volume of the cube space we’re looking at.</p>
 <p>Let’s say there are 6 groups of velocities:</p>
-<p><span class="math inline">\(v_x\)</span> and <span class="math inline">\(v_x + dv_x\)</span>, <span class="math inline">\(v_y\)</span> and <span class="math inline">\(v_y + dv_y\)</span>, <span class="math inline">\(v_z\)</span> and [\(v_z + dv_y$.</p>
+<p><span class="math display">\[v_x\]</span> and <span class="math display">\[v_x + dv_x\]</span>, <span class="math display">\[v_y\]</span> and <span class="math display">\[v_y + dv_y\]</span>, <span class="math display">\[v_z\]</span> and <span class="math display">\[v_z + dv_y\]</span></p>
 <p><img src="img/cube.png" /></p>
-<p>To include all these velocity subgroups in our density function <span class="math inline">\(f\)</span>, we can take the 3 dimensions we were originally working in <span class="math inline">\(dr=dxdydz\)</span> and instead upgrade it to a 6 dimensional space to include all the velocities. First, understand that <span class="math inline">\(drdv=(dzdydz)\cdot (dv_z dv_y dv_x)\)</span> ← 6 dimensions. The density function then looks like this: <span class="math inline">\(f(r,v,t)drdv\)</span></p>
+<p>To include all these velocity subgroups in our density function <span class="math inline">\(f\)</span>, we can take the 3 dimensions we were originally working in <span class="math inline">\(dr=dxdydz\)</span> and instead upgrade it to a 6 dimensional space to include all the velocities. First, understand that <span class="math inline">\(drdv=(dzdydz) \cdot (dv_z dv_y dv_x)\)</span> ← 6 dimensions. The density function then looks like this: <span class="math inline">\(f(r,v,t)drdv\)</span></p>
 <p>Now we can find the total number of particles in a certain velocity group, let’s say <span class="math inline">\(dv\)</span> by integrating over all the velocities and dividing it by the cubic volume <span class="math inline">\(dr=dxdydz\)</span></p>
-<p><span class="math display">\[n(r,t) = \frac {dxdydz\int fdv_xdv_ydv_z}{dxdydz}=\int fdv\]</span></p>
+<p><span class="math display">\[n(r,t) = \frac {dxdydz \int fdv_xdv_ydv_z}{dxdydz}= \int fdv\]</span></p>
 <p>If we wanted to calculate the specific average velocity of a particle at <span class="math inline">\(dr\)</span>. We would do the following:</p>
 <ol type="1">
 <li>Choose the subset of velocities <span class="math inline">\(v\)</span></li>
@@ -135,14 +133,15 @@ v}\]</span></p>
 <li>Integrate over all possible values of <span class="math inline">\(v\)</span></li>
 <li>Divide by the total number of particles in <span class="math inline">\(dr\)</span></li>
 </ol>
-<p><span class="math display">\[u(r,t)= \frac {dr \int vfdr}{ndr}=\frac {1}{n}\int vfdv\]</span></p>
+<p><span class="math display">\[u(r,t)= \frac {dr \int vfdr}{ndr}= \frac {1}{n} \int
+vfdv\]</span></p>
 <p>We can finally generalize the reaction rate <span class="math inline">\(R\)</span> to include multiple velocities.</p>
 <p>Remember that <span class="math inline">\(R= n_1n_2\sigma v\)</span> with one velocity <span class="math inline">\(v\)</span> for all the particles</p>
 <ol type="1">
 <li>Replace the density of the target particles <span class="math inline">\(n_1\)</span> with <span class="math inline">\(f_1(r,v_2,t)dv_1\)</span></li>
 <li>Replace the density of the incident particles <span class="math inline">\(n_2\)</span> with <span class="math inline">\(f(r,v_2,t)dv_2\)</span></li>
 <li>Replace <span class="math inline">\(v\)</span> with a relative velocity <span class="math inline">\(\mid v_2 - v_1 \mid\)</span> which is the difference in velocity between the incident particles and the target particles</li>
-<li>Let <span class="math inline">\(\sigma\)</span> = (\mid v_2 - v_1\mid)$. This makes cross section directly related to the velocity between incident and target particles.</li>
+<li>Let <span class="math inline">\(\sigma = \sigma (\mid v_2 - v_1 \mid)\)</span>. This makes cross section directly related to the velocity between incident and target particles.</li>
 </ol>
 <p><strong>Important Things To Note:</strong></p>
 <ul>
@@ -150,13 +149,11 @@ v}\]</span></p>
 <li>When the velocities of incident and target particles are small, the coulomb force deflects the orbits of these particles and prevents the particles from getting close to each other to make a collision</li>
 <li>Which is why we need the target and incident particle to be travelling at high velocities so that the Coulomb Force can have less influence on the particles and allow them to fuse.</li>
 </ul>
-<p><br />
-</p>
 <p><strong>Final Generalized Reaction Rate</strong></p>
 <p>Substituting all the variables above, we finally have a reaction rate that tells us the number of particles colliding given the varying velocities of target and incident particles.</p>
-<p><span class="math display">\[R = \\int f_1(v_1)f_2(v_2)\sigma(\\mid v_2 - v_1 \\mid) \\mid v_2 - v_1 \\mid dv_1 dv_2\]</span></p>
+<p><span class="math display">\[R = \int f_1(v_1)f_2(v_2) \sigma( \mid v_2 - v_1 \mid) \mid v_2 - v_1 \mid dv_1 dv_2\]</span></p>
 <hr />
-<p>Thanks for reading! If you have any feedback or suggestions, I’d really appreciate it if you DM'd me on <a href="https://twitter.com/BriannaGopaul">Twitter</a></p>
+<p>Thanks for reading! If you have any feedback or suggestions, I’d really appreciate it if you DM’d me on <a href="https://twitter.com/BriannaGopaul">Twitter</a></p>
 <p>For finishing, you can have some non-alcoholic 🍹 🍷(sorry, I’m 17 :P).</p>
 <p><strong>FINAL RECAP:</strong></p>
 <ul>

@@ -156,7 +156,7 @@ $$ \Gamma = \Gamma_0 e\^{\frac{-x}{\gamma_m}$$
 
 where, The Mean Free Path is
 
-$\gamma_m = \frac{1}{n_1 \sigma}$
+$$ \gamma_m = \frac{1}{n_1 \sigma}$$
 
 **What Does This Tell Us About The Mean Free Path?**
 
@@ -256,7 +256,7 @@ Let's say that each fusion reaction creates some energy $E$, then the total ener
 volume is $ER$
 
 Therefore, the power density of that fusion reaction in
-$Watts/m\^3$ is
+$/frac{Watts}{m^3}$ is
 
 $S = ER=E n_1\sigma n_2 v$
 
@@ -295,7 +295,6 @@ many cars crashed on a highway but none of the cars were moving, then
 there would be 0 collisions right? Same thing for fusion, particles must
 be moving at a non zero velocity at least.
 
-\
 
 In every equation you've seem above, the velocity of the particles
 $v$ has remained constant. In a real nuclear
@@ -326,9 +325,9 @@ the time and the volume of the cube space we're looking at.
 
 Let's say there are 6 groups of velocities:
 
-$v_x$ and $v_x + dv_x$,
-$v_y$ and $v_y + dv_y$,
-$v_z$ and [\\(v_z + dv_y$.
+$$v_x$$ and $$v_x + dv_x$$,
+$$v_y$$ and $$v_y + dv_y$$,
+$$v_z$$ and $$v_z + dv_y$$
 
 ![](img/cube.png)
 
@@ -336,16 +335,15 @@ To include all these velocity subgroups in our density function
 $f$, we can take the 3 dimensions we were
 originally working in $dr=dxdydz$ and instead
 upgrade it to a 6 dimensional space to include all the velocities.
-First, understand that [\\(drdv=(dzdydz)\\cdot (dv_z dv_y
-dv_x)\\)]{.math .inline} ← 6 dimensions. The density function then
+First, understand that $drdv=(dzdydz) \cdot (dv_z dv_y
+dv_x)$ ← 6 dimensions. The density function then
 looks like this: $f(r,v,t)drdv$
 
 Now we can find the total number of particles in a certain velocity
 group, let's say $dv$ by integrating over all the
-velocities and dividing it by the cubic volume [\\(dr=dxdydz\\)]{.math
-.inline}
+velocities and dividing it by the cubic volume $dr=dxdydz$
 
-[\\\[n(r,t) = \\frac {dxdydz\\int fdv_xdv_ydv_z}{dxdydz}=\\int fdv\\\]]{.math .display}
+$$n(r,t) = \frac {dxdydz \int fdv_xdv_ydv_z}{dxdydz}= \int fdv$$
 
 If we wanted to calculate the specific average velocity of a particle at
 $dr$. We would do the following:
@@ -355,8 +353,8 @@ $dr$. We would do the following:
 3.  Integrate over all possible values of $v$
 4.  Divide by the total number of particles in $dr$
 
-[\\\[u(r,t)= \\frac {dr \\int vfdr}{ndr}=\\frac {1}{n}\\int
-vfdv\\\]]{.math .display}
+$$u(r,t)= \frac {dr \int vfdr}{ndr}= \frac {1}{n} \int
+vfdv$$
 
 We can finally generalize the reaction rate $R$ to
 include multiple velocities.
@@ -364,14 +362,12 @@ include multiple velocities.
 Remember that $R= n_1n_2\sigma v$ with one
 velocity $v$ for all the particles
 
-1.  Replace the density of the target particles [\\(n_1\\)]{.math
-    .inline} with $f_1(r,v_2,t)dv_1$
-2.  Replace the density of the incident particles [\\(n_2\\)]{.math
-    .inline} with $f(r,v_2,t)dv_2$
-3.  Replace $v$ with a relative velocity [\\(\\mid
-    v_2 - v_1 \\mid\\)]{.math .inline} which is the difference in
+1.  Replace the density of the target particles $n_1$ with $f_1(r,v_2,t)dv_1$
+2.  Replace the density of the incident particles $n_2$ with $f(r,v_2,t)dv_2$
+3.  Replace $v$ with a relative velocity $\mid
+    v_2 - v_1 \mid$ which is the difference in
     velocity between the incident particles and the target particles
-4.  Let $\sigma$ = \sigma(\\mid v_2 - v_1\\mid)$. This makes cross section directly
+4.  Let $\sigma = \sigma (\mid v_2 - v_1 \mid)$. This makes cross section directly
     related to the velocity between incident and target particles.
 
 **Important Things To Note:**
@@ -385,7 +381,6 @@ velocity $v$ for all the particles
     travelling at high velocities so that the Coulomb Force can have
     less influence on the particles and allow them to fuse.
 
-\
 
 **Final Generalized Reaction Rate**
 
@@ -393,12 +388,12 @@ Substituting all the variables above, we finally have a reaction rate
 that tells us the number of particles colliding given the varying
 velocities of target and incident particles.
 
-$$R = \\int f_1(v_1)f_2(v_2)\sigma(\\mid v_2 - v_1 \\mid) \\mid v_2 - v_1 \\mid dv_1 dv_2$$
+$$R = \int f_1(v_1)f_2(v_2) \sigma( \mid v_2 - v_1 \mid) \mid v_2 - v_1 \mid dv_1 dv_2$$
 
 ------------------------------------------------------------------------
 
 Thanks for reading! If you have any feedback or suggestions, I'd really
-appreciate it if you DM\'d me on
+appreciate it if you DM'd me on
 [Twitter](https://twitter.com/BriannaGopaul)
 
 For finishing, you can have some non-alcoholic 🍹 🍷(sorry, I'm 17 :P).
