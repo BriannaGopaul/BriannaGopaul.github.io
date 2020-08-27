@@ -76,7 +76,7 @@ h2 {
 /* Desktop specific */
 @media only screen and (min-width: 768px) {
   body {
-    max-width: 85ch;
+    max-width: 100ch;
   }
 
   nav {
@@ -94,44 +94,40 @@ h2 {
   }
 
   h1 {
-    margin-top: 2.4rem;
-    font-size: 2.1rem;
-    line-height: 3.0rem;
+    margin-top: 2.8rem;
+    font-size: 2.5rem;
+    line-height: 3.4rem;
     margin-bottom: 1.5rem;
   }
 
   h2 {
     margin-top: 2.5rem;
-    font-size: 1.9rem;
-    line-height: 2.8rem; 
+    font-size: 2.2rem;
+    line-height: 3rem; 
   }
 
   p {
-    margin-top: 1.0rem;
-    margin-bottom: 1.0rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
     padding-right: 0;
     vertical-align: baseline;
   }
 
   p, ol, ul, li, summary {
-    font-size: 1.2rem;
-    line-height: 1.7rem;
+    font-size: 1.3rem;
+    line-height: 1.9rem;
   }
 
   main > div > ul li {
     list-style-type: initial;
     margin-bottom: 0rem;
-    font-size: 1.2rem;
-    line-height: 1.7rem;
+    font-size: 1.3rem;
+    line-height: 1.9rem;
   }
 
   code > span {
-    font-size: 1.2rem;
-    line-height: 1.7rem;
-  }
-
-  div.sourceCode {
-    width: 90ch;
+    font-size: 1.3rem;
+    line-height: 1.9rem;
   }
 
   body {
@@ -199,7 +195,7 @@ h1 {
 
 h2 {
   font-weight: 400;
-  margin-bottom: 1.0rem;
+  margin-bottom: 1.2rem;
 }
 
 h3 {
@@ -207,7 +203,7 @@ h3 {
   font-weight: 400;
   font-size: 1.7rem;
   margin-top: 2rem;
-  margin-bottom: 1.0rem;
+  margin-bottom: 1.2rem;
   line-height: 1; 
 }
 

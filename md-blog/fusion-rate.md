@@ -22,7 +22,7 @@ recap on what you missed:
 -   Binding energy is the amount of energy released when a nuclei is
     separated into its component parts
 $E=mc^2$
--   The binding energy curve and $E=mc\^2$ shows
+-   The binding energy curve and $E=mc^2$ shows
     that combining two light nuclei into a nuclei with a higher binding
     energy releases LOTS of energy
 -   The Coulomb Force, a repulsive force between two like charged
@@ -49,10 +49,8 @@ Imagine this: Deuterium nuclei are moving at a velocity $v$
 towards a stationary Tritium nucleus. The Tritium nucleus is
 the target particle and the Deuterium nuclei are the incident particles
 
-::: {.wide-image}
 ![In this example there are multiple target and incident particles, this
-is just for visual purposes](/fusion-images/target.png)
-:::
+is just for visual purposes](/img/target.png)
 
 Each target particle takes up a certain amount of area in the cylinder
 called the cross sectional area. If we were to take a spherical particle
@@ -61,7 +59,7 @@ this would be the cross sectional area $\sigma$ of
 that particle.
 
 ![cross sectional area of a target particle shown in
-purple](/fusion-images/sphere.png)
+purple](/img/sphere.png)
 
 **If the incident particle passes through the cross sectional area
 $\sigma$, then fusion occurs and this reaction is
@@ -78,7 +76,7 @@ average distance a particle travels before fusion occurs.
 
 #### The Mean Free Path
 
-![](/fusion-images/volume.png)
+![](/img/volume.png)
 
 Before we calculate the Mean Free Path, we'll need to calculate the
 probability $P$ that Deuterium and Tritium will
@@ -108,7 +106,7 @@ up in $A$, the area of the cylinder.
 We can use $P$ to represent the probability of an
 incident particle fusing when it crosses $dx$ by
 simply dividing it by $dx$ =
-\\frac {n_1dx\sigma}{dx}= n_1\sigma$.
+$\frac {n_1dx\sigma}{dx}= n_1\sigma$.
 
 **What does this tell us about the probability of an incident particle
 fusing with a target particle?**
@@ -128,42 +126,39 @@ average distance a Deuterium particle has to travel before fusion
 occurs.
 
 Let's say that there are several *incident particles* with density
-$n_2$. Don't confuse this with [\\(n_1\\)]{.math
-.inline} which we used to represent the density of the *target
+$n_2$. Don't confuse this with $n_1$ which we used to represent the density of the *target
 particles*.
 
 We'll use $n_2$ to calculate the flux
-$\\Gamma$--- this is total number of incident
+$\Gamma$--- this is total number of incident
 particles crossing the cross sectional Area $A$,
 per unit time per unit area. Don't get impatient, we're going to use
 this quantity to calculate the Mean Free Path shortly.
 
 To calculate the flux, we took the total number of incident particles
-$T_2\\)]{.math .inline} and divided by area [\\(A$
+$T_2$ and divided by area $A$
 and time $dt$.
 
-[\\\[\\Gamma = \\frac{N_2}{Adt}=\\frac{n_2Avdt}{Adt}=n_2v\\\]]{.math
-.display}
+$$Gamma = \frac{N_2}{Adt}=\frac{n_2Avdt}{Adt}=n_2v$$
 
 This is just total number of incident particles, what portion of these
 particles are having a collision and fusing? We'll represent the amount
-of particles that will fuse with $d\\gamma$. It's
+of particles that will fuse with $d\gamma$. It's
 equal to the probability that particles will fuse multiplied by the flux
 (total number of incident particles per area per time) Simple right?
 
-[\\\[d\\gamma = P\\Gamma = \sigma n_1 \\Gamma dx \\\]]{.math .display}
+$$[d\gamma = P\Gamma = \sigma n_1 \Gamma dx$$
 
 From this, we can also figure out the number of particles that are not
 having a collision and thus, not fusing.
 
-[\\\[d\\Gamma = -\sigma n_1 \\Gamma dx\\\]]{.math .display}
+$$ \Gamma = -\sigma n_1 \Gamma dx$$
 
-[\\\[\\Gamma = \\Gamma_0 e\^{\\frac{-x}{\\gamma_m}}\\\]]{.math
-.display}
+$$ \Gamma = \Gamma_0 e\^{\frac{-x}{\gamma_m}$$
 
 where, The Mean Free Path is
 
-[\\\[\\gamma_m = \\frac{1}{n_1\sigma }\\\]]{.math .display}
+$$\gamma_m = \frac{1}{n_1\sigma}$$
 
 **What Does This Tell Us About The Mean Free Path?**
 
@@ -191,18 +186,18 @@ $n_1$ and the velocity of the particles.
 
 $v_m$ represents the Collision frequency
 
-$\\tau_m$ represents the mean time between
+$\tau_m$ represents the mean time between
 collisions
 
 The Mean free path told us that a particle will travel a distance
 $\\gamma_m$ before having a collision.
 
 So the average time a collision takes to occur is the average distance
-before a collision $\\gamma_m$ divided by how
+before a collision $\gamma_m$ divided by how
 often collisions occur $v_m$.
 
-[\\\[\\tau_m = \\frac{\\gamma_m}{v_m}=\\frac{1}{n_1\sigma
-v}\\\]]{.math .display}
+$$tau_m = \frac{\gamma_m}{v_m}=\frac{1}{n_1\sigma
+v}$$
 
 So if we were to increase the density of the target particles, the cross
 sectional area of those particles and their velocity, the time between
@@ -210,7 +205,7 @@ collisions would decrease.
 
 The collision frequency is the inverse of this:
 
-[\\\[v_m = \\frac{1}{\\tau_m}=n_1\sigma v\\\]]{.math .display}
+$$v_m = \frac{1}{\tau_m}=n_1\sigma v$$
 
 In this case, let's say we increased the density of the target
 particles, their cross sectional areas $\sigma$
@@ -230,8 +225,8 @@ the entire point of using fusion energy in the first place. To produce
 immense amounts of clean energy.
 
 ![dx is the width of the cylinder and the
-length](/fusion-images/volume.png) In time
-$dt=\\frac{dx}{v}$ (this is time = distance
+length](/img/volume.png) In time
+$dt=\frac{dx}{v}$ (this is time = distance
 particles travel / velocity) $n_2Adx$ particles
 will pass through the target volume. Just to refresh your memory, the
 total number of particles passing through the target volume is the
@@ -241,7 +236,7 @@ by the width of the cylinder $dx$. All we did here
 is take the volume of the space the particles are in multiplied by the
 density of those particles in that space to find the total number of
 particles. If this isn't clicking, check
-[here](#the-average-distance-before-collision)to refresh your memory.
+[here](#the-average-distance-before-collision) to refresh your memory.
 
 The number of particles that will actually have a collision is the
 probability of having a collision $P$ multiplied by
@@ -252,16 +247,14 @@ particles having a collision will increase.
 
 The reaction rate $R$ is the number of particles
 having a collision $P(n_2Adx)$ divided by the
-total Volume of the space the particles are in [\\(A dx\\)]{.math
-.inline} and the time $dt$. The reaction rate is
+total Volume of the space the particles are in $(A dx)$ and the time $dt$. The reaction rate is
 telling us how many fusion collisions are occurring per unit volume per
 time.
 
-[\\\[R = \\frac{P(n_2Adx)}{Adxdt}=\sigma n_1 n_2
-\\frac{dx}{dt}=\sigma v n_1 n_2 \\\]]{.math .display}
+$$R = \frac{P(n_2Adx)}{Adxdt}=\sigma n_1 n_2
+\frac{dx}{dt}=\sigma v n_1 n_2$$
 
-Let's say that each fusion reaction creates some energy [\\(E\\)]{.math
-.inline}, then the total energy produced in this reaction per unit
+Let's say that each fusion reaction creates some energy $E$, then the total energy produced in this reaction per unit
 volume is $ER$
 
 Therefore, the power density of that fusion reaction in
@@ -329,18 +322,17 @@ I'll walk you through this function using this scenario:
 
 We have a small cubic volume of space $dr=dxdydz$
 
-The total number of particles at a specific time [\\(t\\)]{.math
-.inline} using our simpler density variable $n$
+The total number of particles at a specific time $t$ using our simpler density variable $n$
 would be $n(r,t)dr$. The density is a function of
 the time and the volume of the cube space we're looking at.
 
 Let's say there are 6 groups of velocities:
 
-$v_x\\)]{.math .inline} and [\\(v_x + dv_x$,
-$v_y\\)]{.math .inline} and [\\(v_y + dv_y$,
-$v_z\\)]{.math .inline} and [\\(v_z + dv_y$.
+$v_x$ and $v_x + dv_x$,
+$v_y$ and $v_y + dv_y$,
+$v_z$ and [\\(v_z + dv_y$.
 
-![](fusion-images/cube.png)
+![](img/cube.png)
 
 To include all these velocity subgroups in our density function
 $f$, we can take the 3 dimensions we were
@@ -446,4 +438,6 @@ Cambridge University Press. doi:10.1017/CBO9780511755705*
 York: Wiley, 1988. Print.*
 
 *[Nuclear Fusion -
-Hyperphysics](http://hyperphysics.phy-astr.gsu.edu/hbase/NucEne/fusion.html#c1)*
+Hyperphysics](http://hyperphysics.phy-astr.gsu.edu/hbase/NucEne/fusion.html#c1)j*
+
+-------------------------------------------------------------------------

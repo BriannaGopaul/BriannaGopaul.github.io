@@ -26,12 +26,13 @@
     <main>
         <div>
 <h1 id="the-rate-of-fusion">The Rate of Fusion</h1>
+<p>TODO Use <code>/{.math .inline}</code> to find messed up Latex</p>
 <p>If you haven’t read <a href="https://www.briannagopaul.com/fusion-basics.html">The Basics of Fusion</a>, I highly recommend you read it first before continuing on. If not, here’s a quick recap on what you missed:</p>
 <p><strong>RECAP</strong></p>
 <ul>
 <li>Fusion is the combining of two hydrogen isotopes, often Deuterium and Tritium, to release an immense amount of energy</li>
 <li>Binding energy is the amount of energy released when a nuclei is separated into its component parts <span class="math inline">\(E=mc^2\)</span></li>
-<li>The binding energy curve and <span class="math inline">\(E=mc\^2\)</span> shows that combining two light nuclei into a nuclei with a higher binding energy releases LOTS of energy</li>
+<li>The binding energy curve and <span class="math inline">\(E=mc^2\)</span> shows that combining two light nuclei into a nuclei with a higher binding energy releases LOTS of energy</li>
 <li>The Coulomb Force, a repulsive force between two like charged particles, prevents nuclei from fusing and increases the closer the two nuclei are to each other</li>
 <li>At a certain distance called the Coulomb Barrier, the nuclear strong force overtakes the Coulomb Force and allows fusion to occur. It’s an attractive short range forces that binds the nucleons (protons and neutrons in a nucleus together)</li>
 <li>For a particle to overcome the Coulomb Barrier, an immense amount of energy measured by the Coulomb Barrier’s height is needed. Sometimes, particles can tunnel through the barrier without enough to energy. Even so, this is what makes fusion difficult.</li>
@@ -40,25 +41,23 @@
 <hr />
 <h2 id="average-distance-before-collision">Average Distance Before Collision</h2>
 <p>Imagine this: Deuterium nuclei are moving at a velocity <span class="math inline">\(v\)</span> towards a stationary Tritium nucleus. The Tritium nucleus is the target particle and the Deuterium nuclei are the incident particles</p>
-<div class="wide-image">
 <figure>
-<img src="/fusion-images/target.png" alt="" /><figcaption>In this example there are multiple target and incident particles, this is just for visual purposes</figcaption>
+<img src="/img/target.png" alt="" /><figcaption>In this example there are multiple target and incident particles, this is just for visual purposes</figcaption>
 </figure>
-</div>
 <p>Each target particle takes up a certain amount of area in the cylinder called the cross sectional area. If we were to take a spherical particle divide it in half and then measure the area of the sphere on it’s half, this would be the cross sectional area <span class="math inline">\(\sigma\)</span> of that particle.</p>
 <figure>
-<img src="/fusion-images/sphere.png" alt="" /><figcaption>cross sectional area of a target particle shown in purple</figcaption>
+<img src="/img/sphere.png" alt="" /><figcaption>cross sectional area of a target particle shown in purple</figcaption>
 </figure>
 <p><strong>If the incident particle passes through the cross sectional area <span class="math inline">\(\sigma\)</span>, then fusion occurs and this reaction is called a collision. If the incident particle does not, fusion will not occur.</strong></p>
 <p>You would think that if the target particle has a really large cross sectional area <span class="math inline">\(\sigma\)</span>, then the probability of a fusion reaction occurring would increase as well right? That’s correct - but we’re going to see exactly how the cross sectional area <span class="math inline">\(\sigma\)</span> is related to the probability of fusion occurring by calculating the Mean Free Path. The Mean Free Path is the average distance a particle travels before fusion occurs.</p>
 <h4 id="the-mean-free-path">The Mean Free Path</h4>
-<p><img src="/fusion-images/volume.png" /></p>
+<p><img src="/img/volume.png" /></p>
 <p>Before we calculate the Mean Free Path, we’ll need to calculate the probability <span class="math inline">\(P\)</span> that Deuterium and Tritium will fuse in the cylinder volume. This will become a variable in the equation for The Mean Free Path.</p>
 <p>Remember the target (Tritium nuclei) and incident (Deuterium nuclei) particles. Well now there’s a cylinder filled with target particles that each have a cross sectional area <span class="math inline">\(\sigma\)</span>.</p>
 <p>The cross sectional area of the cylinder is <span class="math inline">\(A\)</span> and the width of the cylinder is <span class="math inline">\(dx\)</span>. From this, we know that the volume of the entire cylinder is <span class="math inline">\(V=Adx\)</span></p>
 <p>If the density of the target particles in the cylinder is <span class="math inline">\(n_1\)</span>, then the total number of particles in the cylinder would be <span class="math inline">\(T_1=n_1V=n_1Adx\)</span> (the density of the particles x volume of the cylinder)</p>
-<p>If we wanted to know the fraction of the total area blocked by target particles it would be <span class="math inline">\(P =\frac{T_1}{A}= \frac { n_1 A dx}{A} = n_1dx\)</span>. We just took the total area the target particles take up and divided it by the cross sectional area of the sphere which gave us the area that the target particles take up in <span class="math inline">\(A\)</span>, the area of the cylinder.</p>
-<p>We can use <span class="math inline">\(P\)</span> to represent the probability of an incident particle fusing when it crosses <span class="math inline">\(dx\)</span> by simply dividing it by <span class="math inline">\(dx\)</span> = \frac {n_1dx}{dx}= n_1\)]{.math .inline}.</p>
+<p>If we wanted to know the fraction of the total area blocked by target particles it would be <span class="math inline">\(P =\frac{\sigma T_1}{A}= \frac {\sigma n_1 A dx}{A} = n_1dx\sigma\)</span>. We just took the total area the target particles take up and divided it by the cross sectional area of the sphere which gave us the area that the target particles take up in <span class="math inline">\(A\)</span>, the area of the cylinder.</p>
+<p>We can use <span class="math inline">\(P\)</span> to represent the probability of an incident particle fusing when it crosses <span class="math inline">\(dx\)</span> by simply dividing it by <span class="math inline">\(dx\)</span> = <span class="math inline">\(\frac {n_1dx\sigma}{dx}= n_1\sigma\)</span>.</p>
 <p><strong>What does this tell us about the probability of an incident particle fusing with a target particle?</strong></p>
 <ul>
 <li>If the target particles have a larger cross sectional area <span class="math inline">\(\sigma\)</span>, then the probability of fusion occurring increases. Likewise, if the target particle has a smaller cross sectional area <span class="math inline">\(\sigma\)</span>, then the probability of fusion decreases</li>
@@ -66,16 +65,16 @@
 </ul>
 <p>Finally, we can calculate the Mean Free Path which will tell us the average distance a Deuterium particle has to travel before fusion occurs.</p>
 <p>Let’s say that there are several <em>incident particles</em> with density <span class="math inline">\(n_2\)</span>. Don’t confuse this with <span class="math inline">\(n_1\)</span> which we used to represent the density of the <em>target particles</em>.</p>
-<p>We’ll use <span class="math inline">\(n_2\)</span> to calculate the flux <span class="math inline">\(\\Gamma\)</span>— this is total number of incident particles crossing the cross sectional Area <span class="math inline">\(A\)</span>, per unit time per unit area. Don’t get impatient, we’re going to use this quantity to calculate the Mean Free Path shortly.</p>
-<p>To calculate the flux, we took the total number of incident particles <span class="math inline">\(T_2\\)]{.math .inline} and divided by area [\\(A\)</span> and time <span class="math inline">\(dt\)</span>.</p>
-<p><span class="math display">\[\Gamma = \frac{N_2}{Adt}=\frac{n_2Avdt}{Adt}=n_2v\]</span></p>
-<p>This is just total number of incident particles, what portion of these particles are having a collision and fusing? We’ll represent the amount of particles that will fuse with <span class="math inline">\(d\\gamma\)</span>. It’s equal to the probability that particles will fuse multiplied by the flux (total number of incident particles per area per time) Simple right?</p>
-<p><span class="math display">\[d\gamma = P\Gamma = n_1 \Gamma dx \]</span></p>
+<p>We’ll use <span class="math inline">\(n_2\)</span> to calculate the flux <span class="math inline">\(\Gamma\)</span>— this is total number of incident particles crossing the cross sectional Area <span class="math inline">\(A\)</span>, per unit time per unit area. Don’t get impatient, we’re going to use this quantity to calculate the Mean Free Path shortly.</p>
+<p>To calculate the flux, we took the total number of incident particles <span class="math inline">\(T_2\)</span> and divided by area <span class="math inline">\(A\)</span> and time <span class="math inline">\(dt\)</span>.</p>
+<p><span class="math display">\[Gamma = \frac{N_2}{Adt}=\frac{n_2Avdt}{Adt}=n_2v\]</span></p>
+<p>This is just total number of incident particles, what portion of these particles are having a collision and fusing? We’ll represent the amount of particles that will fuse with <span class="math inline">\(d\gamma\)</span>. It’s equal to the probability that particles will fuse multiplied by the flux (total number of incident particles per area per time) Simple right?</p>
+<p><span class="math display">\[[d\gamma = P\Gamma = \sigma n_1 \Gamma dx\]</span></p>
 <p>From this, we can also figure out the number of particles that are not having a collision and thus, not fusing.</p>
-<p><span class="math display">\[d\Gamma = -n_1 \Gamma dx\]</span></p>
-<p><span class="math display">\[\Gamma = \Gamma_0 e^{\frac{-x}{\gamma_m}}\]</span></p>
+<p><span class="math display">\[ \Gamma = -\sigma n_1 \Gamma dx\]</span></p>
+<p><span class="math display">\[ \Gamma = \Gamma_0 e\^{\frac{-x}{\gamma_m}\]</span></p>
 <p>where, The Mean Free Path is</p>
-<p><span class="math display">\[\gamma_m = \frac{1}{n_1}\]</span></p>
+<p><span class="math display">\[\gamma_m = \frac{1}{n_1\sigma}\]</span></p>
 <p><strong>What Does This Tell Us About The Mean Free Path?</strong></p>
 <p>First, the Mean Free Path describes the average distance a particle must travel before a collision or fusion occurs.</p>
 <ul>
@@ -86,21 +85,23 @@
 <h3 id="how-often-does-fusion-occur">How Often Does Fusion Occur?</h3>
 <p>In this article I won’t be deriving the collision frequency but I’ll tell you how it’s related to the cross sectional area of the target particles <span class="math inline">\(\sigma\)</span>, the density of those particles <span class="math inline">\(n_1\)</span> and the velocity of the particles.</p>
 <p><span class="math inline">\(v_m\)</span> represents the Collision frequency</p>
-<p><span class="math inline">\(\\tau_m\)</span> represents the mean time between collisions</p>
+<p><span class="math inline">\(\tau_m\)</span> represents the mean time between collisions</p>
 <p>The Mean free path told us that a particle will travel a distance <span class="math inline">\(\\gamma_m\)</span> before having a collision.</p>
-<p>So the average time a collision takes to occur is the average distance before a collision <span class="math inline">\(\\gamma_m\)</span> divided by how often collisions occur <span class="math inline">\(v_m\)</span>.</p>
-<p><span class="math display">\[\tau_m = \frac{\gamma_m}{v_m}=\frac{1}{n_1 v}\]</span></p>
+<p>So the average time a collision takes to occur is the average distance before a collision <span class="math inline">\(\gamma_m\)</span> divided by how often collisions occur <span class="math inline">\(v_m\)</span>.</p>
+<p><span class="math display">\[tau_m = \frac{\gamma_m}{v_m}=\frac{1}{n_1\sigma
+v}\]</span></p>
 <p>So if we were to increase the density of the target particles, the cross sectional area of those particles and their velocity, the time between collisions would decrease.</p>
 <p>The collision frequency is the inverse of this:</p>
-<p><span class="math display">\[v_m = \frac{1}{\tau_m}=n_1v\]</span></p>
+<p><span class="math display">\[v_m = \frac{1}{\tau_m}=n_1\sigma v\]</span></p>
 <p>In this case, let’s say we increased the density of the target particles, their cross sectional areas <span class="math inline">\(\sigma\)</span> and their velocities, the collision frequency would increase. The opposite is also true.</p>
 <hr />
 <h3 id="fusion-power-energy-density">Fusion Power Energy Density</h3>
 <p>The reaction rate <span class="math inline">\(R\)</span> tells us how many times fusion occurs per unit time per unit volume. By calculating the reaction rate, we can then figure out how much energy fusion outputs per volume. This is important because it’ll let us know if the fusion reactions we’re using are capable of producing net positive energy … which is the entire point of using fusion energy in the first place. To produce immense amounts of clean energy.</p>
-<p><img src="/fusion-images/volume.png" alt="dx is the width of the cylinder and the length" /> In time <span class="math inline">\(dt=\\frac{dx}{v}\)</span> (this is time = distance particles travel / velocity) <span class="math inline">\(n_2Adx\)</span> particles will pass through the target volume. Just to refresh your memory, the total number of particles passing through the target volume is the density of those particles <span class="math inline">\(n_2\)</span> multiplied by the cross sectional area of the cylinder <span class="math inline">\(A\)</span> multiplied by the width of the cylinder <span class="math inline">\(dx\)</span>. All we did here is take the volume of the space the particles are in multiplied by the density of those particles in that space to find the total number of particles. If this isn’t clicking, check <a href="#the-average-distance-before-collision">here</a>to refresh your memory.</p>
+<p><img src="/img/volume.png" alt="dx is the width of the cylinder and the length" /> In time <span class="math inline">\(dt=\frac{dx}{v}\)</span> (this is time = distance particles travel / velocity) <span class="math inline">\(n_2Adx\)</span> particles will pass through the target volume. Just to refresh your memory, the total number of particles passing through the target volume is the density of those particles <span class="math inline">\(n_2\)</span> multiplied by the cross sectional area of the cylinder <span class="math inline">\(A\)</span> multiplied by the width of the cylinder <span class="math inline">\(dx\)</span>. All we did here is take the volume of the space the particles are in multiplied by the density of those particles in that space to find the total number of particles. If this isn’t clicking, check <a href="#the-average-distance-before-collision">here</a> to refresh your memory.</p>
 <p>The number of particles that will actually have a collision is the probability of having a collision <span class="math inline">\(P\)</span> multiplied by the total number of particles <span class="math inline">\(n_2Adx\)</span>. → <span class="math inline">\(P(n_2Adx)\)</span> So if there’s a higher probability of having a collision or a greater number of total particles, the number of particles having a collision will increase.</p>
-<p>The reaction rate <span class="math inline">\(R\)</span> is the number of particles having a collision <span class="math inline">\(P(n_2Adx)\)</span> divided by the total Volume of the space the particles are in <span class="math inline">\(A dx\)</span> and the time <span class="math inline">\(dt\)</span>. The reaction rate is telling us how many fusion collisions are occurring per unit volume per time.</p>
-<p><span class="math display">\[R = \frac{P(n_2Adx)}{Adxdt}=n_1 n_2 \frac{dx}{dt}=v n_1 n_2 \]</span></p>
+<p>The reaction rate <span class="math inline">\(R\)</span> is the number of particles having a collision <span class="math inline">\(P(n_2Adx)\)</span> divided by the total Volume of the space the particles are in <span class="math inline">\((A dx)\)</span> and the time <span class="math inline">\(dt\)</span>. The reaction rate is telling us how many fusion collisions are occurring per unit volume per time.</p>
+<p><span class="math display">\[R = \frac{P(n_2Adx)}{Adxdt}=\sigma n_1 n_2
+\frac{dx}{dt}=\sigma v n_1 n_2\]</span></p>
 <p>Let’s say that each fusion reaction creates some energy <span class="math inline">\(E\)</span>, then the total energy produced in this reaction per unit volume is <span class="math inline">\(ER\)</span></p>
 <p>Therefore, the power density of that fusion reaction in <span class="math inline">\(Watts/m\^3\)</span> is</p>
 <p><span class="math inline">\(S = ER=E n_1\sigma n_2 v\)</span></p>
@@ -123,8 +124,8 @@
 <p>We have a small cubic volume of space <span class="math inline">\(dr=dxdydz\)</span></p>
 <p>The total number of particles at a specific time <span class="math inline">\(t\)</span> using our simpler density variable <span class="math inline">\(n\)</span> would be <span class="math inline">\(n(r,t)dr\)</span>. The density is a function of the time and the volume of the cube space we’re looking at.</p>
 <p>Let’s say there are 6 groups of velocities:</p>
-<p><span class="math inline">\(v_x\\)]{.math .inline} and [\\(v_x + dv_x\)</span>, <span class="math inline">\(v_y\\)]{.math .inline} and [\\(v_y + dv_y\)</span>, <span class="math inline">\(v_z\\)]{.math .inline} and [\\(v_z + dv_y\)</span>.</p>
-<p><img src="fusion-images/cube.png" /></p>
+<p><span class="math inline">\(v_x\)</span> and <span class="math inline">\(v_x + dv_x\)</span>, <span class="math inline">\(v_y\)</span> and <span class="math inline">\(v_y + dv_y\)</span>, <span class="math inline">\(v_z\)</span> and [\(v_z + dv_y$.</p>
+<p><img src="img/cube.png" /></p>
 <p>To include all these velocity subgroups in our density function <span class="math inline">\(f\)</span>, we can take the 3 dimensions we were originally working in <span class="math inline">\(dr=dxdydz\)</span> and instead upgrade it to a 6 dimensional space to include all the velocities. First, understand that <span class="math inline">\(drdv=(dzdydz)\cdot (dv_z dv_y dv_x)\)</span> ← 6 dimensions. The density function then looks like this: <span class="math inline">\(f(r,v,t)drdv\)</span></p>
 <p>Now we can find the total number of particles in a certain velocity group, let’s say <span class="math inline">\(dv\)</span> by integrating over all the velocities and dividing it by the cubic volume <span class="math inline">\(dr=dxdydz\)</span></p>
 <p><span class="math display">\[n(r,t) = \frac {dxdydz\int fdv_xdv_ydv_z}{dxdydz}=\int fdv\]</span></p>
@@ -142,7 +143,7 @@
 <li>Replace the density of the target particles <span class="math inline">\(n_1\)</span> with <span class="math inline">\(f_1(r,v_2,t)dv_1\)</span></li>
 <li>Replace the density of the incident particles <span class="math inline">\(n_2\)</span> with <span class="math inline">\(f(r,v_2,t)dv_2\)</span></li>
 <li>Replace <span class="math inline">\(v\)</span> with a relative velocity <span class="math inline">\(\mid v_2 - v_1 \mid\)</span> which is the difference in velocity between the incident particles and the target particles</li>
-<li>Let <span class="math inline">\(\sigma\)</span> = <span class="math inline">\((\mid v_2 - v_1\mid)\)</span>. This makes cross section directly related to the velocity between incident and target particles.</li>
+<li>Let <span class="math inline">\(\sigma\)</span> = (\mid v_2 - v_1\mid)$. This makes cross section directly related to the velocity between incident and target particles.</li>
 </ol>
 <p><strong>Important Things To Note:</strong></p>
 <ul>
@@ -154,7 +155,7 @@
 </p>
 <p><strong>Final Generalized Reaction Rate</strong></p>
 <p>Substituting all the variables above, we finally have a reaction rate that tells us the number of particles colliding given the varying velocities of target and incident particles.</p>
-<p><span class="math display">\[R = \int f_1(v_1)f_2(v_2)(\mid v_2 - v_1 \mid) \mid v_2 - v_1 \mid dv_1 dv_2\]</span></p>
+<p><span class="math display">\[R = \\int f_1(v_1)f_2(v_2)\sigma(\\mid v_2 - v_1 \\mid) \\mid v_2 - v_1 \\mid dv_1 dv_2\]</span></p>
 <hr />
 <p>Thanks for reading! If you have any feedback or suggestions, I’d really appreciate it if you DM'd me on <a href="https://twitter.com/BriannaGopaul">Twitter</a></p>
 <p>For finishing, you can have some non-alcoholic 🍹 🍷(sorry, I’m 17 :P).</p>
@@ -171,7 +172,8 @@
 <p><strong>References:</strong></p>
 <p><em>Freidberg, J. (2007). Plasma Physics and Fusion Energy. Cambridge: Cambridge University Press. doi:10.1017/CBO9780511755705</em></p>
 <p><em>Krane, Kenneth S, and David Halliday. Introductory Nuclear Physics. New York: Wiley, 1988. Print.</em></p>
-<p><em><a href="http://hyperphysics.phy-astr.gsu.edu/hbase/NucEne/fusion.html#c1">Nuclear Fusion - Hyperphysics</a></em></p>
+<p><em><a href="http://hyperphysics.phy-astr.gsu.edu/hbase/NucEne/fusion.html#c1">Nuclear Fusion - Hyperphysics</a>j</em></p>
+<hr />
         </div>
     </main>
     <script data-goatcounter="https://briannagopaul.goatcounter.com/count"
