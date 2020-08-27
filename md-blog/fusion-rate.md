@@ -8,8 +8,6 @@ url: "fusion-rate"
 The Rate of Fusion
 ==================
 
-TODO Use `/{.math .inline}` to find messed up Latex
-
 If you haven't read [The Basics of
 Fusion](https://www.briannagopaul.com/fusion-basics.html), I highly
 recommend you read it first before continuing on. If not, here's a quick
@@ -147,7 +145,7 @@ of particles that will fuse with $d\gamma$. It's
 equal to the probability that particles will fuse multiplied by the flux
 (total number of incident particles per area per time) Simple right?
 
-$$[d\gamma = P\Gamma = \sigma n_1 \Gamma dx$$
+$$d\gamma = P\Gamma = \sigma n_1 \Gamma dx$$
 
 From this, we can also figure out the number of particles that are not
 having a collision and thus, not fusing.
@@ -158,7 +156,7 @@ $$ \Gamma = \Gamma_0 e\^{\frac{-x}{\gamma_m}$$
 
 where, The Mean Free Path is
 
-$$\gamma_m = \frac{1}{n_1\sigma}$$
+$\gamma_m = \frac{1}{n_1 \sigma}$
 
 **What Does This Tell Us About The Mean Free Path?**
 
