@@ -263,6 +263,7 @@ $S = ER=E n_1\sigma n_2 v$
 Now we can start to see how everything is related.
 
 **Let's test what you learned from this section:**
+
 <details>
 
 <p><summary>What would happen to the power density if I increased the density of the
@@ -276,20 +277,26 @@ more fusion collisions occur.
 
 </details> 
 
-What would happen to the power density if the cross section of the
-nuclei decreased?
+<details> 
 
-If the cross sectional area of the nuclei $\sigma$
+<p><summary>What would happen to the power density if the cross section of the
+nuclei decreased?</p>
+
+</summary>If the cross sectional area of the nuclei $\sigma$
 decreased, the number of collisions occurring in that volume of space
 $R$ would decrease because there's less available
 area for the particles to collide at. This would then decrease the power
 energy density $S_j$ because less fusion
 collisions are occurring per unit volume.
 
-What would happen to power density if the velocity of the particles was
-0?
+</details> 
 
-The power density would be 0 then, we would be producing no energy. If
+<details> 
+
+<p><summary>What would happen to power density if the velocity of the particles was
+0?</p>
+
+</summary>The power density would be 0 then, we would be producing no energy. If
 you were to set all the $v$ terms to 0, the
 reaction rate $R$ would equal 0. Plugging this into
 $S_j$, we would get 0 as well. Particles need to
@@ -298,6 +305,7 @@ many cars crashed on a highway but none of the cars were moving, then
 there would be 0 collisions right? Same thing for fusion, particles must
 be moving at a non zero velocity at least.
 
+</details>
 
 In every equation you've seem above, the velocity of the particles
 $v$ has remained constant. In a real nuclear
@@ -435,7 +443,7 @@ Cambridge University Press. doi:10.1017/CBO9780511755705*
 *Krane, Kenneth S, and David Halliday. Introductory Nuclear Physics. New
 York: Wiley, 1988. Print.*
 
-*[Nuclear Fusion -
+*Nuclear Fusion -
 Hyperphysics - Nuclear Fusion*
 
 -------------------------------------------------------------------------
