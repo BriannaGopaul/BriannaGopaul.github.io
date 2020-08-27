@@ -64,14 +64,14 @@
 </ul>
 <p>Finally, we can calculate the Mean Free Path which will tell us the average distance a Deuterium particle has to travel before fusion occurs.</p>
 <p>Let’s say that there are several <em>incident particles</em> with density <span class="math inline">\(n_2\)</span>. Don’t confuse this with <span class="math inline">\(n_1\)</span> which we used to represent the density of the <em>target particles</em>.</p>
-<p>We’ll use <span class="math inline">\(n_2\)</span> to calculate the flux $ $— this is total number of incident particles crossing the cross sectional Area <span class="math inline">\(A\)</span>, per unit time per unit area. Don’t get impatient, we’re going to use this quantity to calculate the Mean Free Path shortly.</p>
+<p>We’ll use <span class="math inline">\(n_2\)</span> to calculate the flux <span class="math inline">\(\Gamma\)</span> — this is total number of incident particles crossing the cross sectional Area <span class="math inline">\(A\)</span>, per unit time per unit area. Don’t get impatient, we’re going to use this quantity to calculate the Mean Free Path shortly.</p>
 <p>To calculate the flux, we took the total number of incident particles <span class="math inline">\(T_2\)</span> and divided by area <span class="math inline">\(A\)</span> and time <span class="math inline">\(dt\)</span>.</p>
 <p><span class="math display">\[ \Gamma = \frac{N_2}{Adt}=\frac{n_2Avdt}{Adt}=n_2v\]</span></p>
 <p>This is just total number of incident particles, what portion of these particles are having a collision and fusing? We’ll represent the amount of particles that will fuse with <span class="math inline">\(d\gamma\)</span>. It’s equal to the probability that particles will fuse multiplied by the flux (total number of incident particles per area per time) Simple right?</p>
 <p><span class="math display">\[d\gamma = P\Gamma = \sigma n_1 \Gamma dx\]</span></p>
 <p>From this, we can also figure out the number of particles that are not having a collision and thus, not fusing.</p>
 <p><span class="math display">\[ \Gamma = -\sigma n_1 \Gamma dx\]</span></p>
-<p><span class="math display">\[ \Gamma = \Gamma_0 e\^{\frac{-x}{\gamma_m}\]</span></p>
+<p><span class="math display">\[ \Gamma = \Gamma_0 e^{\frac{-x}{\gamma_m}}\]</span></p>
 <p>where, The Mean Free Path is</p>
 <p><span class="math display">\[ \gamma_m = \frac{1}{n_1 \sigma}\]</span></p>
 <p><strong>What Does This Tell Us About The Mean Free Path?</strong></p>
@@ -102,7 +102,7 @@ v}\]</span></p>
 <p><span class="math display">\[R = \frac{P(n_2Adx)}{Adxdt}=\sigma n_1 n_2
 \frac{dx}{dt}=\sigma v n_1 n_2\]</span></p>
 <p>Let’s say that each fusion reaction creates some energy <span class="math inline">\(E\)</span>, then the total energy produced in this reaction per unit volume is <span class="math inline">\(ER\)</span></p>
-<p>Therefore, the power density of that fusion reaction in <span class="math inline">\(/frac{Watts}{m^3}\)</span> is</p>
+<p>Therefore, the power density of that fusion reaction in <span class="math inline">\(Watts/m^3\)</span> is</p>
 <p><span class="math inline">\(S = ER=E n_1\sigma n_2 v\)</span></p>
 <p>Now we can start to see how everything is related.</p>
 <p><strong>Let’s test what you learned from this section:</strong></p>
@@ -121,7 +121,9 @@ v}\]</span></p>
 <p>We have a small cubic volume of space <span class="math inline">\(dr=dxdydz\)</span></p>
 <p>The total number of particles at a specific time <span class="math inline">\(t\)</span> using our simpler density variable <span class="math inline">\(n\)</span> would be <span class="math inline">\(n(r,t)dr\)</span>. The density is a function of the time and the volume of the cube space we’re looking at.</p>
 <p>Let’s say there are 6 groups of velocities:</p>
-<p><span class="math display">\[v_x\]</span> and <span class="math display">\[v_x + dv_x\]</span>, <span class="math display">\[v_y\]</span> and <span class="math display">\[v_y + dv_y\]</span>, <span class="math display">\[v_z\]</span> and <span class="math display">\[v_z + dv_y\]</span></p>
+<p><span class="math inline">\(v_x\)</span> and <span class="math inline">\(v_x + dv_x\)</span>,</p>
+<p><span class="math inline">\(v_y\)</span> and <span class="math inline">\(v_y + dv_y\)</span>,</p>
+<p><span class="math inline">\(v_z\)</span> and <span class="math inline">\(v_z + dv_y\)</span></p>
 <p><img src="img/cube.png" /></p>
 <p>To include all these velocity subgroups in our density function <span class="math inline">\(f\)</span>, we can take the 3 dimensions we were originally working in <span class="math inline">\(dr=dxdydz\)</span> and instead upgrade it to a 6 dimensional space to include all the velocities. First, understand that <span class="math inline">\(drdv=(dzdydz) \cdot (dv_z dv_y dv_x)\)</span> ← 6 dimensions. The density function then looks like this: <span class="math inline">\(f(r,v,t)drdv\)</span></p>
 <p>Now we can find the total number of particles in a certain velocity group, let’s say <span class="math inline">\(dv\)</span> by integrating over all the velocities and dividing it by the cubic volume <span class="math inline">\(dr=dxdydz\)</span></p>
@@ -168,7 +170,7 @@ vfdv\]</span></p>
 <p><strong>References:</strong></p>
 <p><em>Freidberg, J. (2007). Plasma Physics and Fusion Energy. Cambridge: Cambridge University Press. doi:10.1017/CBO9780511755705</em></p>
 <p><em>Krane, Kenneth S, and David Halliday. Introductory Nuclear Physics. New York: Wiley, 1988. Print.</em></p>
-<p><em><a href="http://hyperphysics.phy-astr.gsu.edu/hbase/NucEne/fusion.html#c1">Nuclear Fusion - Hyperphysics</a>j</em></p>
+<p><em>[Nuclear Fusion - Hyperphysics - Nuclear Fusion</em></p>
 <hr />
         </div>
     </main>

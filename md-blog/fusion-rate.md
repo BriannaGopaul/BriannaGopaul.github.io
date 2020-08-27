@@ -128,7 +128,7 @@ $n_2$. Don't confuse this with $n_1$ which we used to represent the density of t
 particles*.
 
 We'll use $n_2$ to calculate the flux
-$ \Gamma$--- this is total number of incident
+$\Gamma$ --- this is total number of incident
 particles crossing the cross sectional Area $A$,
 per unit time per unit area. Don't get impatient, we're going to use
 this quantity to calculate the Mean Free Path shortly.
@@ -152,7 +152,7 @@ having a collision and thus, not fusing.
 
 $$ \Gamma = -\sigma n_1 \Gamma dx$$
 
-$$ \Gamma = \Gamma_0 e\^{\frac{-x}{\gamma_m}$$
+$$ \Gamma = \Gamma_0 e^{\frac{-x}{\gamma_m}}$$
 
 where, The Mean Free Path is
 
@@ -256,7 +256,7 @@ Let's say that each fusion reaction creates some energy $E$, then the total ener
 volume is $ER$
 
 Therefore, the power density of that fusion reaction in
-$/frac{Watts}{m^3}$ is
+$Watts/m^3$ is
 
 $S = ER=E n_1\sigma n_2 v$
 
@@ -325,9 +325,11 @@ the time and the volume of the cube space we're looking at.
 
 Let's say there are 6 groups of velocities:
 
-$$v_x$$ and $$v_x + dv_x$$,
-$$v_y$$ and $$v_y + dv_y$$,
-$$v_z$$ and $$v_z + dv_y$$
+$v_x$ and $v_x + dv_x$,
+
+$v_y$ and $v_y + dv_y$,
+
+$v_z$ and $v_z + dv_y$
 
 ![](img/cube.png)
 
@@ -431,6 +433,6 @@ Cambridge University Press. doi:10.1017/CBO9780511755705*
 York: Wiley, 1988. Print.*
 
 *[Nuclear Fusion -
-Hyperphysics](http://hyperphysics.phy-astr.gsu.edu/hbase/NucEne/fusion.html#c1)j*
+Hyperphysics - Nuclear Fusion*
 
 -------------------------------------------------------------------------
