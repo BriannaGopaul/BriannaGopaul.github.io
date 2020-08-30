@@ -27,6 +27,7 @@ $3 \hat{v}$ increases the magnitude of $\hat{v}$ three magnitudes.
 $-\hat{v}$ reverses the direction of $\hat{v}$
 
 **Position Vectors**
+
 - Vector with an initial point at it's origin and terminal point at $P(v_1, v_2)$
 - Any vector can be translated into a position vector 
 Suppose we have two points: $P_1(x_1, y_1)$ and $P_2(x_2, y_2)$
@@ -46,7 +47,8 @@ $\hat{j} = <0,1>$
 In $R^2$ there are two standard basis vectors. 
 In $R^3$ there are three standard basis vectors. 
 
-What is a subspace of $R_2$? 
+What is a subspace of $R_2$?
+
 - A line through the origin is a subspace of dimension 1
 - A plane through the origin is a subspace of dimension 2 
 
