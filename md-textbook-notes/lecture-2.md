@@ -31,8 +31,8 @@ Radius: $r$
 Just as you would complete the square to find the center and radius of a circle, you'd do the same for spheres. 
 
 **Position Vectors**
-<br> 
-$/vec{v}$ $= <v_1, v_2, v_3>$ or $\vec{v} = v_1 \hat{i} + v_2 \hat{j} + v_3 \hat{k}$
+
+$\vec{v}$ $= <v_1, v_2, v_3>$ or $\vec{v} = v_1 \hat{i} + v_2 \hat{j} + v_3 \hat{k}$
 
 $||\vec{v}|| = \sqrt{(v_1)^2 + (v_2)^2 + (v_3)^2}$
 
@@ -47,7 +47,9 @@ $||w|| = \sqrt{1^2 + 2^2 + 3^3} = \sqrt{14}$
 Next, find the unit vector since the unit vector tells us the direction $\vec{v}$
 
 $\hat{u}$ $=$ $\frac{\vec{v}}{||\vec{v}||}$
+
 <br> 
+
 $\hat{u} = \frac{\hat{i}-2\hat{j}+3\hat{k}}{\sqrt{14}}$
 
 Since, $\vec{v} = \hat{u} \cdot ||\vec{v}||$ and $||v|| = 2$
