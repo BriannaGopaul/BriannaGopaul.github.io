@@ -6,8 +6,7 @@ url: "lecture-2"
 ...
 
 # Lecture 2 
-
-###  Topic: Vectors in 3D
+####  Topic: Vectors in 3D
 
 **Distance Between Points**
 <br> 
