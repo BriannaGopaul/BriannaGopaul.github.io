@@ -39,7 +39,7 @@ $||\vec{v}|| = \sqrt{(v_1)^2 + (v_2)^2 + (v_3)^2}$
 **Remember:** If two vectors have the same scalar, they're parallel. 
 
 *EX:*
-Find $\vec{v}$ such that $||vec|| = 2$ and $\vec{v}$ has the same direction as $\vec{w} = \hat{i} - 2\hat{j} + 3\hat{k}$
+Find $\vec{v}$ such that $||\vec{2}|| = 2$ and $\vec{v}$ has the same direction as $\vec{w} = \hat{i} - 2\hat{j} + 3\hat{k}$
 
 First, find the direction of $\vec{w}$: 
 $||w|| = \sqrt{1^2 + 2^2 + 3^3} = \sqrt{14}$
@@ -47,8 +47,6 @@ $||w|| = \sqrt{1^2 + 2^2 + 3^3} = \sqrt{14}$
 Next, find the unit vector since the unit vector tells us the direction $\vec{v}$
 
 $\hat{u}$ $=$ $\frac{\vec{v}}{||\vec{v}||}$
-
-<br> 
 
 $\hat{u} = \frac{\hat{i}-2\hat{j}+3\hat{k}}{\sqrt{14}}$
 
