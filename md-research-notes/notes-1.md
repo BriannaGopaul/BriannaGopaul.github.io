@@ -1,9 +1,12 @@
 ---
-title: "Research Notes"
+title: "Research Notes: Week 1"
 author: "Brianna Gopaul"
 date: "2020-08-02"
-url: "notes-1"
+url: "08/31/20"
 ...
 
 # Research Notes
-UNO 
+Week: 08/31/20
+
+### Superconductors
+[coming soon]...
