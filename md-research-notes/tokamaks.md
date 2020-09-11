@@ -41,8 +41,8 @@ Two Possible Methods: RF, NBI or Helicity Injection
 
 **Plasma Pressure**
 - there is a limit to the plasma pressure 
-$$\Beta = \frac{plasma pressure}{magnetic pressure}$$
-$$\Beta = \frac{2 \Mu_0 <p>}{B^2}$$
+$$ \beta = \frac{plasma pressure}{magnetic pressure}$$
+$$ \beta = \frac{2 \mu_0 <p>}{B^2}$$
 
 **Confinement Time**
 - plasma turbulence is what leaks the most energy from the core 
