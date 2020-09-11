@@ -24,7 +24,7 @@ Commercialization is the path of getting from current fusion industry (governmen
 **Fusion Companies:** 
 - approx. 28 companies 
 
-#####Learning Cycle
+##### Learning Cycle
 - iterate as fast as possible with the simplest thing you can build 
 - focus on the most risky feature and test that first
 - always build the simplest, fastest, cheapest thing somebody will pay for that retires risk
@@ -45,11 +45,11 @@ Commercialization is the path of getting from current fusion industry (governmen
 7. analyze and rethink 
 8. evaluate whether people care --> is your tech even wanted or needed by people? 
 
-#####Have a competitive edge
+##### Have a competitive edge
 - What is the reason that someone can't replicate you? This can be a strategy, patent, network. 
 - Go as fast as you can go. Go to market fast so that your competition can't catch up. 
 
-#####Feedback from the energy world
+##### Feedback from the energy world
 - Excited to participate in fusion energy but want the following: 
 
 **What they need to see** 
