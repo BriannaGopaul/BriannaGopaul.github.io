@@ -1,5 +1,5 @@
 ---
-title: "Fusion Commercialization"
+title: "SULI: Fusion Commercialization"
 author: "Brianna Gopaul"
 date: "2020-09-08"
 url: "fusion-com"

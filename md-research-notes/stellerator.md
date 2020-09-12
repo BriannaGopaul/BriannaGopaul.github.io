@@ -1,3 +1,10 @@
+---
+title: "SULI: Stellerators"
+author: "Brianna Gopaul"
+date: "2020-10-06"
+url: "stellerators"
+...
+
 # Stellerators
 - Has both poloidial and toroidial fields
 - Rotational Transform: ratio of poloidial to toroidial fields
