@@ -9,7 +9,9 @@ url: "IEC-progress"
 
 ### Objective:
 Build an Inertial Electrostatic Confinement Fusor and detect neutrons. Then, run a couple of experiments using solenoids (will post soon). 
+
 - - - 
+
 **December 2020**
 
 Main Focus: Collecting parts, planning out experiments and gaining a deeper understanding of how IEC works. 
