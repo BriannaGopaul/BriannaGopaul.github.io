@@ -5,7 +5,7 @@ date: "2020-11-30"
 url: "IEC-progress"
 ...
 
-# IEC Progress Log  
+# Fusor Progress Log  
 
 ### Objective:
 Build an Inertial Electrostatic Confinement Fusor, detect fast neutrons, test new experiments to increase the rate of fusion. 
@@ -16,7 +16,8 @@ Build an Inertial Electrostatic Confinement Fusor, detect fast neutrons, test ne
 
 Main Focus: Collecting parts and gaining a deeper understanding of how IEC works. 
 
-Progress: 
+Progress:
+
 - Detailed schematic of reactor 
 - Bought 6 way 6" CF Port High Vacuum Chamber
 - Read first 2 chapters of: [Inertial Electrostatic Confinement by Miley, Murali](https://www.springer.com/gp/book/9781461493372)
@@ -24,9 +25,11 @@ Progress:
 - - - 
 
 **January 2021**
+
 Main Focus: Grants, purchasing parts, designing potential experiments. 
 
-Progress: 
+Progress:
+
 - $8,000 USD grant secured from Emergent Ventures (Thank you Tyler Cowen!)
 - Negotiating prices for diffusion pump, mechanical pump other vacuum parts
 - Understood the main barriers stopping IEC fusors from doing net-positive fusion (cathode losses)
