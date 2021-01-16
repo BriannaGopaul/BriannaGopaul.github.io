@@ -8,28 +8,29 @@ url: "IEC-progress"
 # IEC Progress Log  
 
 ### Objective:
-Build an Inertial Electrostatic Confinement Fusor and detect neutrons. Then, run a couple of experiments using solenoids (will post soon). 
+Build an Inertial Electrostatic Confinement Fusor, detect fast neutrons, test new experiments to increase the rate of fusion. 
 
 - - - 
 
 **December 2020**
 
-Main Focus: Collecting parts, planning out experiments and gaining a deeper understanding of how IEC works. 
+Main Focus: Collecting parts and gaining a deeper understanding of how IEC works. 
 
-Parts Bought:
+Progress: 
+- Detailed schematic of reactor 
+- Bought 6 way 6" CF Port High Vacuum Chamber
+- Read first 2 chapters of: [Inertial Electrostatic Confinement by Miley, Murali](https://www.springer.com/gp/book/9781461493372)
 
-- 6 way 6" CF Port High Vacuum Chamber
+- - - 
 
-To Be Bought:
+**January 2021**
+Main Focus: Grants, purchasing parts, designing potential experiments. 
 
-- High Voltage Negative Polarity DC Power Supply 30kV, 10mA
-- Water or Air Cooled Diffusion Pump 
-- Mechanical Pump 5CFM
-- Deuterium Gas Tank 
-
-If you're selling or have any of the above used parts, please email me at briannagopaul14@gmail.com!
-
-Currently Reading: [Inertial Electrostatic Confinement by Miley, Murali](https://www.springer.com/gp/book/9781461493372)
+Progress: 
+- $8,000 USD grant secured from Emergent Ventures (Thank you Tyler Cowen!)
+- Negotiating prices for diffusion pump, mechanical pump other vacuum parts
+- Understood the main barriers stopping IEC fusors from doing net-positive fusion (cathode losses)
+- Ideating potential experiments to increase the rate of fusion in fusor 
 
 - - -
 
