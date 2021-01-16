@@ -8,7 +8,7 @@ url: "IEC-progress"
 # Fusor Progress Log  
 
 ### Objective:
-Build an Inertial Electrostatic Confinement Fusor, detect fast neutrons, test new experiments to increase the rate of fusion. 
+Build an Inertial Electrostatic Confinement Fusor (IEC), detect fast neutrons and test new experiments to increase the rate of fusion. 
 
 - - - 
 
