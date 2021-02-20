@@ -17,9 +17,9 @@ If you were to frame these "geniuses" as an input-output machine, we are only se
 
 That's not to say that there are no geniuses. There is a very small percent of our population born with innate talents and gifts but even these people will need to train and work hard at some point. 
 
-Richard Feynman framed this same idea in There Are No Miracle People: 
+Richard Feynman framed this same idea in [There Are No Miracle People](https://www.youtube.com/watch?v=IIDLcaQVMqw): 
 
-"If you take an ordinary person who is willing to devote a great deal of time and study and work and thinking, then he will become a scientist" - Feynman 
+> **If you take an ordinary person who is willing to devote a great deal of time and study and work and thinking, then he will become a scientist** 
 
 
 
