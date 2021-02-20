@@ -19,11 +19,8 @@ That's not to say that there are no geniuses. There is a very small percent of o
 
 Richard Feynman framed this same idea in [There Are No Miracle People](https://www.youtube.com/watch?v=IIDLcaQVMqw): 
 
-- - - 
+<blockquote><font size="5"><span style="color:grey">*If you take an ordinary person who is willing to devote a great deal of time, study, work and thinking, then he will become a scientist*</span></font></blockquote> 
 
-<blockquote>**If you take an ordinary person who is willing to devote a great deal of time, study, work and thinking, then he will become a scientist**</blockquote> 
-
-- - - 
 
 
 
