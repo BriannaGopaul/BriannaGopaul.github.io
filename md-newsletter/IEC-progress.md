@@ -37,3 +37,27 @@ Progress:
 
 - - -
 
+**February 2021**
+
+Main Focus: Purchasing parts
+
+Progress: 
+- Bought Edwards Diffstak 63MM Diffusion Pump
+- Bought Glassman HV PSU 
+- Bought JB DV-142N Roughing Pump 
+- Bought 40kV High Voltage Feedthrough 
+- Bought majority of foreline vacuum parts
+- Bought conflat flanges for main chamber 
+- Bought 200k Ohm Ballast Resistors 
+- Bought Tungsten wire 
+- Bought vacuum gauges
+- Spent countless hours on fusor net
+
+To Purchase: 
+- HV Stalk
+- Diffusion Pump's Water Cooling System 
+- Various NW10/16 flanges, O rings
+- Various HV Parts
+
+- - - 
+
