@@ -60,4 +60,14 @@ To Purchase:
 - Various HV Parts
 
 - - - 
+**March + April 2021**
+Progress: 
+- Assembled foreline and did a lot of vacuum leak debugging
+- Constructed main chamber (all conflat flanges attached)
+- Tested High Voltage PSU 
+- Constructed inner grid 
+- Constructed High Voltage Stalk 
+- Got a presssure of 53 microns on foreline. Currently working on this. 
+
+Images: 
 
