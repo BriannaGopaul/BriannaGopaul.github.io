@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "pandoc/How to use.md",
-            "mode": "source"
+            "file": "md-blog/fusion-rate.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pandoc/How to use.md",
+                "file": "md-blog/fusion-rate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,10 +88,10 @@
   },
   "active": "07cebf3739e0b3f2",
   "lastOpenFiles": [
+    "md-blog/fusion-rate.md",
     "pandoc/How to use.md",
     "md-blog/fusion-basics.md",
     "md-blog/genius.md",
-    "md-blog/fusion-rate.md",
     "md-pages/blog.md",
     "md-blog/woowee.md",
     "md-blog/Untitled.md",
