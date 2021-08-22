@@ -1,15 +1,11 @@
 ---
 title: "The Rate of Fusion"
-author: "Brianna Gopaul"
-date: "2020-08-07"
-url: "fusion-rate"
-...
+---
 
-The Rate of Fusion
-==================
+# The Rate of Fusion
 
 If you haven't read [The Basics of
-Fusion](https://www.briannagopaul.com/fusion-basics.html), I highly
+Fusion](fusion-basics.html), I highly
 recommend you read it first before continuing on. If not, here's a quick
 recap on what you missed:
 

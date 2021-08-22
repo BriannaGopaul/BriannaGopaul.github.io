@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "c3fc455d270d4b42",
+    "type": "split",
+    "children": [
+      {
+        "id": "07cebf3739e0b3f2",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "md-blog/fusion-basics.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4509f34f44c33453",
+    "type": "split",
+    "children": [
+      {
+        "id": "e93d0c23b5308ed4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c11d2e29aeaa6158",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "bcc63c9cad8ae648",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "14c3fcc91a0313df",
+    "type": "split",
+    "children": [
+      {
+        "id": "ddd8e7628a6483f6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1ff44a32eafbd9c7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "md-blog/fusion-basics.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "07cebf3739e0b3f2",
+  "lastOpenFiles": [
+    "md-blog/fusion-basics.md",
+    "md-blog/genius.md",
+    "md-blog/fusion-rate.md",
+    "pandoc/How to use.md",
+    "md-pages/blog.md",
+    "md-blog/woowee.md",
+    "md-blog/Untitled.md",
+    "md-blog/food.md",
+    "pandoc/Untitled.md",
+    "img/boltzmann-distribution.png"
+  ]
+}

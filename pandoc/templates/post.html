@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+  $for(author-meta)$
+    <meta name="author" content="$author-meta$" />
+  $endfor$
+  $if(date-meta)$
+    <meta name="dcterms.date" content="$date-meta$" />
+  $endif$
+  $if(keywords)$
+    <meta name="keywords" content="$for(keywords)$$keywords$$sep$, $endfor$" />
+  $endif$
+    <title>$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$ | Brianna Gopaul</title>
+  $for(css)$
+    <link rel="stylesheet" href="$css$" />
+  $endfor$
+  $if(math)$
+    $math$
+  $endif$
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  $for(header-includes)$
+    $header-includes$
+  $endfor$
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    ${ nested-nav() }
+
+
+    <main>
+        <div>
+          <h1>$title$</h1>
+          <p>$date$</p>
+$body$
+        </div>
+    </main>
+    <script data-goatcounter="https://briannagopaul.goatcounter.com/count"
+            async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>

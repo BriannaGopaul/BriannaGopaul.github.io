@@ -1,12 +1,8 @@
 ---
 title: "The Basics of Fusion Energy"
-author: "Brianna Gopaul"
-date: "2020-07-30"
-url: "fusion-basics"
-...
+---
 
 # The Basics of Fusion Energy
-
 By: Brianna Gopaul
 
 If we wanted to power the globe with solar energy, we would need [**over 50 billion solar panels**](https://www.axionpower.com/knowledge/power-world-with-solar/#:~:text=With%20Solar%20Panels%3F-,How%20Many%20Solar%20Panels%20Would%20It%20Take%20To%20Power%20The,panels%20to%20power%20the%20world). Clearly, solar energy isn't the solution to the world's clean energy problem but fusion energy might be.
@@ -88,7 +84,7 @@ In fact, the Nuclear Strong Force is one of the four fundamental forces that gov
 
 <div class="wide-image" >
 
-![The Four Fundamental Forces (Laffe, Taylors)](1%201%20%E2%80%94%20The%20Basics%20of%20Fusion%20Energy%20680e606e866349ba808570ed06c14991/Screen_Shot_2020-07-26_at_11.50.49_AM.png)
+![The Four Fundamental Forces (Laffe, Taylors)](../img/forces.png)
 </div>
 
 
@@ -103,7 +99,7 @@ If we were to combine $H^2$ (Deuterium) and $H^3$ (Tritium), we would see the fo
 
 If you add up all the subscripts, the left and right side equal each other. n represents the number of neutrons $\ce{^{n}Z} \space$and atomic masses and m represents the number of protons$\ce{^_{m}Z} \space$. When we fused Deuterium and Tritium, we got a Helium4 nuclei and a neutron. Now let's look at where everything is on the Binding Energy Curve. 
 
-![](1%201%20%E2%80%94%20The%20Basics%20of%20Fusion%20Energy%20680e606e866349ba808570ed06c14991/Screen_Shot_2020-07-23_at_8.10.05_PM.png)
+![](../img/energy-released-binding-energy.png)
 
 In red, we can see the $H^2$ nuclei and the $H^3$ nuclei that are being fused together, and the product of their reaction $He^4$. What do you notice about $He^4$? The binding energy is far greater than the binding energies of both $H^2$ and $H^3$.
 
@@ -113,7 +109,7 @@ What I just described is fusion and fission. **Fusion is the fusing of two light
 
 We can split the energy binding curve into two parts from $Fe^{56}$.
 
-![](1%201%20%E2%80%94%20The%20Basics%20of%20Fusion%20Energy%20680e606e866349ba808570ed06c14991/Screen_Shot_2020-07-14_at_12.14.33_AM.png)
+![](../img/fusion-fission-binding-energy.png)
 
 Therefore, a general equation for fusion can be 
 
@@ -129,7 +125,7 @@ So far, we know that fusion is initiated by the Nuclear Strong Force that acts a
 
 If the Coulomb Force is preventing us from bringing the two hydrogen isotopes together, how the heck are we going to bring the isotopes $10^{-15}m$ away from each other? This is called the Coulomb Barrier — it's the exact point at which the strong force overtakes the Coulomb Force allowing some of the nuclei to fuse. 
 
-![Coulomb Barrier](1%201%20%E2%80%94%20The%20Basics%20of%20Fusion%20Energy%20680e606e866349ba808570ed06c14991/Screen_Shot_2020-07-26_at_8.55.16_PM.png)
+![Coulomb Barrier](../img/coulomb-barrier.png)
 
 Coulomb Barrier - Source: Introductory Nuclear Physics by Kenneth Krane
 
@@ -147,7 +143,7 @@ $Z$ represents the number of protons the nuclei has or the atomic number
 
 $R$ represents the radi of the nuclei 
 
-The other terms we see are from Coulomb's Law, check [here](-rate-of-fusion.html) for a refresher. 
+The other terms we see are from Coulomb's Law, check [here](fusion-rate.html) for a refresher. 
 
 This equation once again shows why light nuclei like hydrogen isotopes are the best option for fusion, they experience less repulsive Coulomb Force because they only have 1 proton. In the equation for the Coulomb Barrier Height, we can see that as the number of protons increases in a nuclei the height of the Coulomb Barrier will also increase. 
 
@@ -163,8 +159,7 @@ Another factor that helps us is that the average kinetic energy of the particles
 The Maxwell Boltzmann Distribution shows us the distribution of energies of various nuclei in a reactor. The nuclei in red at the end of the curve are the ones that have the most energy and thus are the most likely to pass the Coulomb Barrier and fuse. 
 
 <div class="wide-image" >
-
-![](1%201%20%E2%80%94%20The%20Basics%20of%20Fusion%20Energy%20680e606e866349ba808570ed06c14991/Screen_Shot_2020-07-27_at_5.33.55_PM.png)
+![](../img/boltzmann-distribution.png)
 </div> 
 
 Maxwell Boltzmann Distribution Source: University of Cambridge Dr. Tina Potter

@@ -1,6 +1,6 @@
 ---
 title: "Blog Archive"
-...
+---
 
 # Blog Archive
 - [Thoughts On Genius](blog/genius.html)

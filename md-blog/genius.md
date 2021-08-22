@@ -1,9 +1,6 @@
 ---
-title: "Thoughts On Genius"
-author: "Brianna Gopaul"
-date: "2021-02-19"
-url: "genius"
-...
+title: "Thoughts on Genius"
+---
 
 # Thoughts On Genius
 
