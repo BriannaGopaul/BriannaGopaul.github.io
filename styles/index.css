@@ -1,6 +1,7 @@
 /* General styling */
+/* General styling */
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   background-color: #000;
   color: #fff;
@@ -58,7 +59,7 @@ a {
 }
 
 img.profile {
-  width: 10%;
+  width: 50%;
   max-width: 216px;
 }
 
