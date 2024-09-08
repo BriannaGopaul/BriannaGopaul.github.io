@@ -1,79 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
-  <meta name="author" content="Brianna Gopaul" />
-  <title>Portfolio | Brianna Gopaul</title>
-  <link rel="stylesheet" href="../styles/page.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Roboto', sans-serif;
-      padding: 20px;
-    }
-    nav ul {
-      list-style-type: none;
-      padding: 0;
-    }
-    nav ul li {
-      display: inline;
-      margin-right: 10px;
-    }
-    .project {
-      display: flex;
-      margin-bottom: 40px;
-    }
-    .project img {
-      max-width: 300px;
-      margin-right: 20px;
-    }
-    .project ul {
-      list-style-type: disc;
-    }
-    h1 {
-      font-family: 'Montserrat', sans-serif;
-    }
-  </style>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <meta name="author" content="Brianna Gopaul" />
+    <title>Portfolio | Brianna Gopaul</title>
+    <link rel="stylesheet" href="../styles/page.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        .project {
+            display: flex;
+            margin-bottom: 40px;
+        }
+
+        .project img {
+            max-width: 300px;
+            margin-right: 20px;
+        }
+
+        .project ul {
+            list-style-type: disc;
+        }
+
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+        }
+    </style>
 </head>
+
 <body>
     <nav>
     </nav>
 
     <main>
         <h1>Portfolio</h1>
+
         <div class="project">
-          <img src="/img/hbridge.jpg"/>
-          <div>
-            <h2>Overcooked Playing Robot</h2>
-            <p>Goal: Produce a burning plasma, 500 MW fusion power, Q &gt; 10</p>
-            <ul>
-              <li>x</li>
-              <li>x</li>
-              <li>x</li>
-              <li>x</li>
-            </ul>
-          </div>
+            <img src="/img/hbridge.jpg" />
+            <div>
+                <h2>Aerodesign Sensorboard Schematics Rev 4</h2>
+                <ul>
+                    <li>Created hierarchical schematics for AeroDesign Sensorboard Rev 4</li>
+                    <li>In the process of routing PCB</li>
+                </ul>
+            </div>
         </div>
 
         <div class="project">
-          <img src="/img/hbridge.jpg" alt="Second Project Image" />
-          <img src="/img/hbridge.jpg" alt="Second Project Image" />
-          <img src="/img/hbridge.jpg" alt="Second Project Image" />
-          
-          <div>
-            <br>
-            <h2>Soft Actor Critic Computer Vision Robot</h2>
-            <p>.</p>
-            <ul>
-              <li>x</li>
-              <li>x</li>
-              <li>x</li>
-            </ul>
-          </div>
+            <img src="/img/hbridge.jpg" />
+            <div>
+                <h2>Overcooked Playing Robot</h2>
+                <ul>
+                    <li>In a team of four, built two cooperative autonomous robots that follow black tape, pick up 3D printed food, assemble burgers, and hand off ingredients to each other.</li>
+                    <li>Designed H-Bridge and IR sensing/filtering PCBs in Altium, and debugged using oscilloscopes.</li>
+                    <li>Secured fourth place in the summer 2024 competition.</li>
+                </ul>
+            </div>
         </div>
+
+        <div class="project">
+            <img src="/img/hbridge.jpg" alt="Second Project Image" />
+            <img src="/img/hbridge.jpg" alt="Second Project Image" />
+            <img src="/img/hbridge.jpg" alt="Second Project Image" />
+
+            <div>
+                <br>
+                <h2>Reinforcement Learning Computer Vision Autonomous Robot</h2>
+                <ul>
+                    <li>In a team of two, developed an autonomous driving program using reinforcement learning (RL) and a CNN for sign recognition in a simulated competition.</li>
+                    <li>Implemented a Soft Actor Critic model and CNN using ROS, PyTorch, and Keras in a Gazebo environment to drive the robot and read sign values.</li>
+                    <li>Achieved first place in the ENPH 353 competition.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="project">
+            <img src="/img/hbridge.jpg" />
+            <div>
+                <h2>Technological Bottlenecks in Biosurveillance</h2>
+                <ul>
+                    <li>Collaborated in a team of two to produce two comprehensive reports identifying bottlenecks in biosurveillance technologies.</li>
+                    <li>Conducted interviews with scientists from institutions such as the Broad Institute, MIT, and Cambridge.</li>
+                    <li>Reviewed and synthesized scientific literature to provide research recommendations aimed at advancing biosurveillance technologies for preventing the spread of infectious diseases.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="project">
+            <img src="/img/hbridge.jpg" />
+            <div>
+                <h2>Farnsworth Fusor</h2>
+                <ul>
+                    <li>Worked on a Farnsworth Fusor for demonstrating nuclear fusion. Progress was hindered by vacuum system leak issues.</li>
+                    <li>Secured $10,000 in funding from Emergent Ventures to support the project.</li>
+                    <li>Ultimately paused the fusor project to pursue an internship at General Fusion and study Engineering Physics at UBC.</li>
+                </ul>
+            </div>
+        </div>
+
     </main>
 
     <script data-goatcounter="https://briannagopaul.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
+
 </html>
