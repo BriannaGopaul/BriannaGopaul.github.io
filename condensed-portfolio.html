@@ -26,9 +26,11 @@
 
         .project {
             margin-bottom: 40px;
+            padding-bottom: 20px; /* Add some space below the content */
+            border-bottom: 1px solid #ccc; /* Separator line */
         }
 
-        .project img, .project video, .project embed {
+        .project img, .project video, .project embed, .project iframe {
             display: block;
             margin: 0 auto 20px;
         }
@@ -42,6 +44,7 @@
         h1 {
             font-family: 'Montserrat', sans-serif;
         }
+
         .image-row {
             text-align: center; /* Center the row of images */
         }
@@ -60,12 +63,12 @@
     </nav>
 
     <main>
-        <h1>my projects</h1>
+        <h1>My Projects</h1>
 
         <div class="project">
-            <embed src="/img/Sensor_Board_Rev4 PDFs.pdf" width="600" height="500" type="application/pdf">
             <div>
                 <h2>Aerodesign Sensorboard Schematics Rev 4</h2>
+                <embed src="/img/Sensor_Board_Rev4 PDFs.pdf" width="600" height="500" type="application/pdf">
                 <ul>
                     <li>Created hierarchical schematics for AeroDesign Sensorboard Rev 4</li>
                     <li>In the process of routing PCB</li>
@@ -74,17 +77,17 @@
         </div>
 
         <div class="project">
-            <video width="640" height="360" controls>
-                <source src="/img/ENPH253_Comp_Video (2) (1).mov" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <div class="image-row">
-            <img src="/img/hbridge.jpg" width="200">
-            <img src="/img/irsensing1.0.jpg" width="200">
-            <img src="/img/irsensing2.0.jpg" width="200">
-            </div>
             <div>
                 <h2>Overcooked Playing Robot</h2>
+                <video width="640" height="360" controls>
+                    <source src="/img/ENPH253_Comp_Video (2) (1).mov" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="image-row">
+                    <img src="/img/hbridge.jpg" width="200">
+                    <img src="/img/irsensing1.0.jpg" width="200">
+                    <img src="/img/irsensing2.0.jpg" width="200">
+                </div>
                 <ul>
                     <li>In a team of four, built two cooperative autonomous robots that follow black tape, pick up 3D printed food, assemble burgers, and hand off ingredients to each other.</li>
                     <li>Designed H-Bridge and IR sensing/filtering PCBs in Altium, and debugged using oscilloscopes.</li>
@@ -94,12 +97,12 @@
         </div>
 
         <div class="project">
-            <video width="640" height="360" controls>
-                <source src="/img/ENPH353_2023_T2_Team9_v2 (1).mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
             <div>
                 <h2>Reinforcement Learning Computer Vision Autonomous Robot</h2>
+                <video width="640" height="360" controls>
+                    <source src="/img/ENPH353_2023_T2_Team9_v2 (1).mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
                 <ul>
                     <li>In a team of two, developed an autonomous driving program using reinforcement learning (RL) and a CNN for sign recognition in a simulated competition.</li>
                     <li>Implemented a Soft Actor Critic model and CNN using ROS, PyTorch, and Keras in a Gazebo environment to drive the robot and read sign values.</li>
@@ -110,10 +113,9 @@
         </div>
 
         <div class="project">
-            <embed src="/img/Overview of the Pathogen Biosurveillance Landscape  (3).pdf" width="600" height="500" type="application/pdf">
-            
             <div>
                 <h2>Technological Bottlenecks in Biosurveillance</h2>
+                <embed src="/img/Overview of the Pathogen Biosurveillance Landscape (3).pdf" width="600" height="500" type="application/pdf">
                 <ul>
                     <li>Collaborated in a team of two to produce two comprehensive reports identifying bottlenecks in biosurveillance technologies.</li>
                     <li>Conducted interviews with scientists from institutions such as the Broad Institute, MIT, and Cambridge.</li>
@@ -124,10 +126,9 @@
         </div>
 
         <div class="project">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/-Qhzog5E458" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
             <div>
                 <h2>Farnsworth Fusor</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/-Qhzog5E458" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <ul>
                     <li>Worked on a Farnsworth Fusor for demonstrating nuclear fusion. Progress was hindered by vacuum system leak issues.</li>
                     <li>Secured $10,000 in funding from Emergent Ventures to support the project.</li>
@@ -135,10 +136,10 @@
                 </ul>
             </div>
         </div>
+
     </main>
 
     <script data-goatcounter="https://briannagopaul.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 
 </html>
-
