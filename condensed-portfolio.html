@@ -42,6 +42,16 @@
         h1 {
             font-family: 'Montserrat', sans-serif;
         }
+        .image-row {
+            text-align: center; /* Center the row of images */
+        }
+
+        .image-row img {
+            display: inline-block; /* Display images in a row */
+            margin: 5px; /* Space between images */
+            max-width: 100%; /* Make sure images are responsive */
+            height: auto; /* Maintain aspect ratio */
+        }
     </style>
 </head>
 
@@ -68,6 +78,11 @@
                 <source src="/img/ENPH253_Comp_Video (2) (1).mov" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
+            <div class="image-row">
+            <img src="/img/hbridge.jpg" width="200">
+            <img src="/img/irsensing1.0.jpg" width="200">
+            <img src="/img/irsensing2.0.jpg" width="200">
+            </div>
             <div>
                 <h2>Overcooked Playing Robot</h2>
                 <ul>
