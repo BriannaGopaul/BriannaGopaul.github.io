@@ -25,17 +25,18 @@
         }
 
         .project {
-            display: flex;
             margin-bottom: 40px;
         }
 
-        .project img {
-            max-width: 300px;
-            margin-right: 20px;
+        .project img, .project video, .project embed {
+            display: block;
+            margin: 0 auto 20px;
         }
 
         .project ul {
             list-style-type: disc;
+            margin: 0;
+            padding: 0;
         }
 
         h1 {
@@ -52,10 +53,7 @@
         <h1>Portfolio</h1>
 
         <div class="project">
-   
             <embed src="/img/Sensor_Board_Rev4 PDFs.pdf" width="600" height="500" type="application/pdf">
-            
-            
             <div>
                 <h2>Aerodesign Sensorboard Schematics Rev 4</h2>
                 <ul>
@@ -70,7 +68,6 @@
                 <source src="/img/ENPH253_Comp_Video (2) (1).mov" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
-            
             <div>
                 <h2>Overcooked Playing Robot</h2>
                 <ul>
@@ -86,9 +83,7 @@
                 <source src="/img/ENPH353_2023_T2_Team9_v2 (1).mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
-
             <div>
-                <br>
                 <h2>Reinforcement Learning Computer Vision Autonomous Robot</h2>
                 <ul>
                     <li>In a team of two, developed an autonomous driving program using reinforcement learning (RL) and a CNN for sign recognition in a simulated competition.</li>
@@ -112,7 +107,7 @@
         </div>
 
         <div class="project">
-            <img src="/img/hbridge.jpg" />
+            <img src="/img/hbridge.jpg" alt="Farnsworth Fusor Image" />
             <div>
                 <h2>Farnsworth Fusor</h2>
                 <ul>
@@ -122,10 +117,10 @@
                 </ul>
             </div>
         </div>
-
     </main>
 
     <script data-goatcounter="https://briannagopaul.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 
 </html>
+
